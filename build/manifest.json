@@ -1,0 +1,62 @@
+{
+	"name": "UsportsAPP",
+	"short_name": "UsportsAPP",
+	"lang": "zh_CN",
+	"start_url": "/",
+	"theme_color": "#fff",
+	"background_color": "#fff",
+	"display": "standalone",
+	"orientation": "portrait",
+	"icons": [
+		{
+			"src": "icons/ubet_iphone_logo.png",
+			"type": "image/png",
+			"sizes": "72x72"
+		},
+		{
+			"src": "icons/ubet_iphone_logo.png",
+			"type": "image/png",
+			"sizes": "96x96"
+		},
+		{
+			"src": "icons/ubet_iphone_logo.png",
+			"type": "image/png",
+			"sizes": "120x120"
+		},
+		{
+			"src": "icons/ubet_iphone_logo.png",
+			"type": "image/png",
+			"sizes": "128x128"
+		},
+		{
+			"src": "icons/ubet_iphone_logo.png",
+			"type": "image/png",
+			"sizes": "144x144"
+		},
+		{
+			"src": "icons/ubet_iphone_logo.png",
+			"type": "image/png",
+			"sizes": "152x152"
+		},
+		{
+			"src": "icons/ubet_iphone_logo.png",
+			"type": "image/png",
+			"sizes": "180x180"
+		},
+		{
+			"src": "icons/ubet_iphone_logo.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "icons/ubet_iphone_logo.png",
+			"type": "image/png",
+			"sizes": "384x384"
+		},
+		{
+			"src": "icons/ubet_iphone_logo.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		}
+	]
+}
