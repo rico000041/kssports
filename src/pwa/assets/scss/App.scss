@@ -11,6 +11,31 @@
   src: url("../fonts/Century\ Gothic\ 400.ttf");
 }
 
+@font-face {
+  font-family: Sports Count;
+  src: url("../fonts/sports-count.TTF");
+}
+
+@font-face {
+  font-family: PingFang Light;
+  src: url("../fonts/PingFang\ Light.ttf");
+}
+
+@font-face {
+  font-family: PingFang Regular;
+  src: url("../fonts/PingFang\ Regular.ttf");
+}
+
+@font-face {
+  font-family: PingFang Medium;
+  src: url("../fonts/PingFang\ Medium.ttf");
+}
+
+@font-face {
+  font-family: PingFang Bold;
+  src: url("../fonts/PingFang\ Bold.ttf");
+}
+
 html:lang(zh) body {
   // font-size: 12px;
   font-family: "Microsoft Yahei regular !important";
@@ -25,7 +50,6 @@ body.body-pwa {
 
 body.pwa-home-page {
   .app-sa {
-    padding: #{$head}px 0 0;
     @media screen and (min-width: 767px) {
       padding: #{$head-tablet}px 0 0;
     }
@@ -59,14 +83,6 @@ body.no-scroll {
     overflow: hidden;
     @include radius(0 0 40px 40px);
     @include shadow(0px 1px 5.52px 2.48px rgba(0, 0, 0, 0.05));
-    @include position(
-      fixed,
-      $z-index: 998,
-      $top: 0,
-      $left: 0,
-      $right: 0,
-      $bottom: auto
-    );
   }
   .app-sa-head::after {
     content: "";
@@ -102,6 +118,7 @@ body.no-scroll {
       p {
         color: #46aef7;
         font-size: 14px;
+        font-family: Pingfang Regular;
       }
     }
   }
